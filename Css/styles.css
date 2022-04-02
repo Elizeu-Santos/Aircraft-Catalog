@@ -88,18 +88,39 @@ nav ul button:hover {
     color:rgb(36, 99, 150);
 }
 
+.content .header-block {
+    max-width: 1000px;
+    min-width: 100px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+  }
+
 .header-block img {
     width: 100%;
+    position: center;
 }
 
 .header-block .text {
-    color:rgb(131, 162, 223);
-    transform: translateX(80px);
-    transition: transform 2.5s;
+    position: center;
+    bottom: 30%;
+    left: 15%;
+}
+
+.header-block .text h2 {
+    color: rgb(131, 162, 223);
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 .header-block .text p {
     color:aliceblue;
+    text-align: left;
 }   
 
 /* Aircraft Catalog */
@@ -169,7 +190,7 @@ section .card-item {
 }
 
 .card-content {
-    height: 40%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,17 +198,20 @@ section .card-item {
 }
 
 .card-item img {
-    width: 85%;
+    width: 110%;
 }
 
-.card-item h4 {
-    width: 90%;
+.card-item h3 {
+    width: 86%;
+    padding: 5px;
 }
 
 .card-item p {
     width: 90%;
     font-style: italic;
     color: #00000070;
+    text-align: justify;
+    padding: 10px;
 }
 
 .card-item button {
@@ -201,7 +225,7 @@ section .card-item {
     font-size: 1.1em;
     cursor: pointer;
     transition: 0.3s ease;
-    margin-bottom: 10px;
+    margin-bottom: 90px;
 }
 
 .card-item button:hover {
@@ -408,31 +432,28 @@ footer .last {
     }
   
     .header-block img {
-      width: 70%;
-      position: absolute;
-      right: 16%;
-      top: 30%;
+      width: 100%;
+
+      position: center;
+      margin-top: 40px;
     }
   
     .header-block .text {
-      position: absolute;
-      bottom: 10%;
-      left: 15;
+      margin-top: 40px;
     }
   
     section .filter-card {
-      width: 390px;
-      padding: 0px 10px;
+      width: 330px;
     }
   
     .search-input {
-      max-width: 700px;
+      max-width: 260px;
       min-width: 240px;
     }
   
     .search-button {
-      max-width: 150px;
-      min-width: 80px;
+      max-width: 60px;
+      min-width: 60px;
     }
   
     .about {
@@ -442,13 +463,16 @@ footer .last {
     .title-wrapper-about {
       margin-bottom: 20px;
     }
+    
     .about-content {
       flex-direction: column;
       height: 100%;
     }
+
     .left {
       display: none;
     }
+
     .right {
       width: 90%;
     }
