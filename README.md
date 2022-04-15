@@ -5,7 +5,7 @@
   </h1>
 
 <h1>Sobre o Projeto - (Front-end)</h1>
-<p>Aircraft Catalog - é uma Landing Page de catálogo de aviões comerciais mais utilizados atualmente. Desenvolvido para prática de HTML(HyperText Markup Language) e CSS (Cascading Style Sheets).</p>
+<p>Aircraft Catalog - é uma Landing Page de catálogo dos aviões comerciais mais utilizados no mundo. Desenvolvido para prática de HTML(HyperText Markup Language) e CSS (Cascading Style Sheets).</p>
 <p>Link do <b>Site</b> 🛫 <a href="https://aircraft-catalog.netlify.app/">Aircraft-Catalog</a></p>
 
 <h2> Tecnologias 🚀</h2>
