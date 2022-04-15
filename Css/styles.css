@@ -380,11 +380,6 @@ footer .main {
     margin-bottom: 8px;
 }
 
-.main .footer-social img {
-    width: 80px;
-    height: 30px;
-}
-
 footer .last {
     width: 100%;
     height: 50px;
@@ -467,20 +462,24 @@ footer .last {
     .about-content {
       flex-direction: column;
       height: 100%;
+      width: 100%;
     }
 
     .left {
-      display: none;
+      display: flex;
+      width: 150%;
+      
     }
-
+ 
     .right {
-      width: 90%;
+      width: 100%;
+      height: 220px;
     }
   
     .right p {
       width: 100%;
-      margin: 0px;
-      text-align: left;
+      margin: 7px;
+      text-align: justify;
     }
   
     .features {
