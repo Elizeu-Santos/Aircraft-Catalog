@@ -1,7 +1,7 @@
 <h1>Aircraft Catalog 🛫</h1>
 <h2>Demonstração 🎬</h2>
 <h1 align="center">
-  <img alt="Gif" title="Readme" src="./github/gifs-aircraft.gif"/>
+  <img alt="" title="Readme" src="./github/gifs-aircraft.gif"/>
   </h1>
 
 <h1>Sobre o Projeto</h1>
