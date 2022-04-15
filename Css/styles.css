@@ -241,6 +241,7 @@ section .card-item {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: rgb(226, 235, 248);
 }
 
 .about-content {
@@ -304,6 +305,7 @@ section .card-item {
 
 .title-wrapper-features {
     padding: 20px 0px;
+    color: rgb(226, 235, 248);
 }
 
 .feature-card-block {
@@ -379,8 +381,8 @@ footer .main {
 }
 
 .main .footer-social img {
-    width: 32px;
-    height: 32px;
+    width: 80px;
+    height: 30px;
 }
 
 footer .last {
